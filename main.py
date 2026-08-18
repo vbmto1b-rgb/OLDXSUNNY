@@ -24,7 +24,7 @@ from flask import Flask
 from threading import Thread
 
 app = Flask('')
-NAME='@OLDXSUNNY'  #Add what ever you want to desplay in bot like , i am ____ hostin bot 
+NAME='@OLDXSUNNYBOT'  #Add what ever you want to desplay in bot like , i am ____ hostin bot 
 @app.route('/')
 def home():
     return f"I am {NAME} BOT"
